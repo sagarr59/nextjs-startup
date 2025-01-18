@@ -1,5 +1,11 @@
-import Image from "next/image";
-
+import Hello from "./components/hello";
 export default function Home() {
-  return <h1 className="text-3xl p-5">Learning Next.Js</h1>;
+  console.log("WHO AM I? -- SERVER/CLIENT");
+
+  return (
+    <>
+      <h1 className="text-3xl">Sagar - Next.Js</h1>
+      <Hello />
+    </>
+  );
 }
