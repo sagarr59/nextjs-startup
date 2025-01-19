@@ -1,6 +1,8 @@
 const page = () => {
   return (
-    <div>This is about page</div>
-  )
-}
-export default page
+    <div>
+      <h1 className="text-2xl">About Page</h1>
+    </div>
+  );
+};
+export default page;
